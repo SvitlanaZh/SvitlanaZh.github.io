@@ -1,0 +1,139 @@
+body {
+    background-color:#f9f9f9;
+    font-family:'OpenSans',sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.wrapper {
+  margin: 0 auto;
+  padding-top:  50px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom:58px;
+  width:970px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+
+}
+
+.navigation {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.navigation ul{
+  display:inline-block;
+  width: 100%;
+  line-height: 40px;
+  background: -moz-linear-gradient(top,  #5e5e5e 0%, #444343 100%, #444343 101%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #5e5e5e 0%,#444343 100%,#444343 101%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #5e5e5e 0%,#444343 100%,#444343 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343',GradientType=0 ); /* IE6-9 */
+}
+
+
+.navigation ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 70px;
+  }
+
+
+.navigation ul li a {
+  font-size: 16px;
+  color:white;
+
+}
+
+.navigation ul li:nth-child(2)  {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3f3f3f;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.sidebar {
+  margin-top: 40px;
+  float: left;
+}
+
+.sidebar ul li{
+  display: block;
+  margin-top: -1px;
+  padding: 20px;
+  width: 200px;
+  border: 1px solid #656363;
+  text-decoration: none;
+  color: #656363;
+  font-size: 14px;
+  }
+
+.sidebar ul li a{
+    font-size: 15px;
+    color:#656363;
+}
+
+.sidebar ul li:nth-child(3) {
+    background-color: #f9f9f9;
+    text-indent: 15px;
+    }
+
+    #choose {
+      color: #2c2c2c;
+      font-size: 15px;
+    }
+
+
+.content  img{
+    margin-top: 40px;
+    margin-left: 45px;
+    color: #646464;
+  }
+.content  p{
+    margin-left: 315px;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+footer {
+    margin-top: 84px;
+}
+
+footer ul {
+   line-height: 40px;
+   width: 100%;
+   background-color:#e1e1e1;
+ }
+
+footer ul li {
+   display: inline-block;;
+   margin-left: 25px;
+   margin-right: 50px;
+   position: relative;
+ }
+
+footer ul li a{
+   display: inline;
+   text-decoration: none;
+   font-size: 13px;
+   color: #2c2c2c;
+}
+
+footer ul li:nth-child(2) {
+   text-decoration: underline;
+}
+
+#copyright {
+   display: block;
+   float: right;
+   text-align:right;
+   font-size: 13px;
+   color: #2c2c2c;
+}
