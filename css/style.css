@@ -8,10 +8,7 @@ a {
 }
 .wrapper {
   margin: 0 auto;
-  padding-top:  50px;
-  padding-left: 45px;
-  padding-right: 45px;
-  padding-bottom:58px;
+  padding:50px 45px 58px 45px;
   width:970px;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
@@ -39,7 +36,7 @@ a {
 .navigation ul li {
   display: inline-block;
   margin-left: 25px;
-  margin-right: 70px;
+  margin-right: 60px;
   }
 
 
@@ -49,43 +46,46 @@ a {
 
 }
 
-.navigation ul li:nth-child(2)  {
+.navigation ul li:hover  {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #3f3f3f;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
 }
 
 .sidebar {
+  border-left:1px solid #c8c8c8;
+  border-right:1px solid #c8c8c8;
+  border-bottom:1px solid #c8c8c8;
   margin-top: 40px;
   float: left;
 }
 
 .sidebar ul li{
   display: block;
-  margin-top: -1px;
   padding: 20px;
   width: 200px;
-  border: 1px solid #656363;
+  border-top: 1px solid #c8c8c8;
   text-decoration: none;
+
+  }
+.sidebar ul li a {
   color: #656363;
   font-size: 14px;
-  }
-
-.sidebar ul li a{
-    font-size: 15px;
-    color:#656363;
 }
 
-.sidebar ul li:nth-child(3) {
+
+
+.sidebar ul li:hover {
     background-color: #f9f9f9;
     text-indent: 15px;
-    }
 
-    #choose {
+}
+
+    .sidebar ul li:hover a {
       color: #2c2c2c;
-      font-size: 15px;
+      font-size: 14px;
     }
 
 
